@@ -1,0 +1,30 @@
+{
+  "name": "@nsumikawa/DataFrame",
+  "version": "0.0.0",
+  "description": "DataFrame library with React Plugins. Node branch for development purposes",
+  "main": "launch.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node launch.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nik Sumikawa",
+  "license": "ISC",
+  "keywords": [
+    "test"
+  ],
+  "dependencies": {
+    "echarts": "^4.8.0",
+    "moment": "^2.27.0",
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-syntax-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "jest": "^26.2.2",
+    "nodemon": "^2.0.4"
+  }
+}
